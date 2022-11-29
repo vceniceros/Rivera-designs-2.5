@@ -1,0 +1,270 @@
+<section id="presentation">
+  <div class="presentation_row">
+    <div class="presentation_slider">
+      <div class="container_presentation">
+        <div class="slider_presentation">
+          <input
+        type="radio"
+        name="slideSelectors"
+        id="sl5"
+        class="selectors"
+        checked
+      />
+      <div class="slide5 slides">
+        <div class="content">
+          <h1>Reposeras</h1>
+              <h2>Amplia variedad de reposeras</h2>
+
+
+          <button class="btns">
+            <a [routerLink]="['productos/Reposeras']">Ver Productos</a>              </button>
+        </div>
+        <label for="sl4" class="prev"></label>
+        <label for="sl1" class="next"></label>
+      </div>
+          
+          
+          <input
+            type="radio"
+            name="slideSelectors"
+            id="sl2"
+            class="selectors"
+            checked
+          />
+          <div class="slide2 slides">
+            <div class="content">
+              <h1>Coleccion Alumad</h1>
+              <h2>Mezcla Perfecta entre aluminio y Deck</h2>
+
+              <button class="btns">
+                <a [routerLink]="['colecciones/Alumad']">Ver Productos</a>              </button>
+            </div>
+            <label for="sl1" class="prev"></label>
+            <label for="sl3" class="next"></label>
+          </div>
+          <input
+            type="radio"
+            name="slideSelectors"
+            id="sl3"
+            class="selectors"
+            checked
+          />
+          <div class="slide3 slides">
+            <div class="content">
+              <h1>Reposera Solarium-Modena</h1>
+              <h2>Práctica y cómoda reposera.</h2>
+
+
+              <button class="btns">
+                <a [routerLink]="['productos/Reposeras/37']">Ver Productos</a>              </button>
+            </div>
+            <label for="sl2" class="prev"></label>
+            <label for="sl4" class="next"></label>
+          </div>
+          <input
+          type="radio"
+          name="slideSelectors"
+          id="sl4"
+          class="selectors"
+          checked
+        />
+        <div class="slide4 slides">
+          <div class="content">
+            <h1>Coleccion Dot</h1>
+            <h2>Elegancia y estilo</h2>
+
+
+            <button class="btns">
+              <a [routerLink]="['colecciones/Dot']">Ver Productos</a>              </button>
+          </div>
+          <label for="sl3" class="prev"></label>
+          <label for="sl5" class="next"></label>
+        </div>
+        <input
+            type="radio"
+            name="slideSelectors"
+            id="sl1"
+            class="selectors"
+            checked
+          />
+          <div class="slide1 slides">
+            <div class="content">
+              <h1>Rivera Designs</h1>
+              <h2>Muebles de aluminio de alta calidad</h2>
+
+              <button class="btns">
+                <a [routerLink]="['productos']">Ver Productos</a>
+              </button>
+            </div>
+            <label for="sl5" class="prev"></label>
+            <label for="sl2" class="next"></label>
+          </div>
+          <div class="nav">
+            <label for="sl1" class="dots dot1"></label>
+            <label for="sl2" class="dots dot2"></label>
+            <label for="sl3" class="dots dot3"></label>
+            <label for="sl4" class="dots dot4"></label>
+            <label for="sl5" class="dots dot5"></label>
+          </div>
+        </div>
+        <div></div>
+        <div class="container text-center my-3">
+          <div class="row mx-auto my-auto justify-content-center">
+            <div
+              id="recipeCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/6s8y5Sr/1-10-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Formentera']"
+                          ><p>Formentera</p></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/hM6XnTg/2-13-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Modena']"><p>Modena</p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/8667PwD/3-4-3.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Tirreno']"><p>Tirreno</p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/9GFf6k7/6-1-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Alumad']"><p>Alumad </p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/rmgXzy1/8-1-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Deck']"><p>Deck </p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/R7yRLYQ/5-1-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Dot']"><p>Dot </p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/JzNN1y8/7-1-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Belt']"><p>Belt </p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          src="https://i.ibb.co/HTyPFrb/9-1-1.jpg"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="card-img-overlay">
+                        <a [routerLink]="['colecciones/Especial']"><p>Especial</p></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev bg-transparent w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+              <a
+                class="carousel-control-next bg-transparent w-aut"
+                href="#recipeCarousel"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

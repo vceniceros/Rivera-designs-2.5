@@ -1,0 +1,13 @@
+<section id="menu">
+    <div class="menu_grid">
+    <div *ngFor="let mueble of colecciones let i = index" class="menu_item">
+          <a [routerLink]="mueble.coleccion"><div class="menu_item_images">
+          <img src="{{mueble.imagen}} alt{{mueble.title}}" class="menu_item_imagen1">
+          <img src="{{mueble.imagen2}}" alt="{{mueble.title}}" class="menu_item_imagen2">
+          </div></a>
+          <div class="menu_item_text">
+          <a [routerLink]="mueble.coleccion"><p>{{mueble.title}}</p></a>
+          </div>
+    </div>
+    </div>
+    </section>

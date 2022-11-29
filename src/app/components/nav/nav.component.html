@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background: #526eaa;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href=""><img src="../../../assets/images/logoRD.jpg" height="100" width="100" alt="logoRD"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a [routerLink]="'productos'" style="text-decoration: none; color: #fff;">Productos</a> 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+            <li><a class="dropdown-item" [routerLink]="'productos/Sillones'">Sillones</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Mesas'">Mesas</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Puffs'">Puffs</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Reposeras'">Reposeras</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Camastros'">Camastros</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Barras'">Barras</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Banquetas'">Banquetas</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Bancos'">Bancos</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Sillas'">Sillas</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Hamacas'">Hamacas</a></li>
+            <li><a class="dropdown-item" [routerLink]="'productos/Pergolas'">Pérgolas</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a [routerLink]="'colecciones'" style="text-decoration: none; color: #fff;">Colecciones</a> 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Formentera'">Formentera</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Modena'">Modena</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Tirreno'">Tirreno</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Alumad'">Alumad</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Deck'">Deck</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Dot'">Dot</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Belt'">Belt</a></li>
+            <li><a class="dropdown-item" [routerLink]="'colecciones/Especial'">Especial</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'materiales'">Materiales</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

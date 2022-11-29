@@ -1,0 +1,24 @@
+<section class="">
+<article class="mueble_text">
+
+<h2>{{Mueble.tipo}}-{{Mueble.coleccion}}</h2>
+<h1>{{Mueble.nombre}}</h1>
+<p>{{Mueble.descripcion}}</p>
+<div *ngIf="Mueble.medidas.length < 60">
+    <div class="short_medida">
+        <p>{{Mueble.medidas}}</p>
+    </div>
+</div>
+<div *ngIf="Mueble.medidas.length > 60">
+    <div class="long_medida">
+        <p>{{Mueble.medidas}}</p>
+    </div>
+</div>
+<div *ngIf="Mueble.croquis != ''">
+    <img src="{{Mueble.croquis}}" width="300px" alt="Mueble.nombre">
+</div>
+
+
+</article>
+
+</section>

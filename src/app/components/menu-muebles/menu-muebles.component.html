@@ -1,0 +1,598 @@
+
+<!--Menu Sillones-->
+<div *ngIf="router.url === '/productos/Sillones'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 0:16; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--Menu Mesas-->
+<div *ngIf="router.url === '/productos/Mesas'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 16:29; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---Menu puffs-->
+<div *ngIf="router.url === '/productos/Puffs'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 29:34; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu reposeras-->
+<div *ngIf="router.url === '/productos/Reposeras'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 34:39; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!----menu camastros-->
+<div *ngIf="router.url === '/productos/Camastros'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 39:42; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu Barras-->
+<div *ngIf="router.url === '/productos/Barras'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 42:44; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu banquetas-->
+<div *ngIf="router.url === '/productos/Banquetas'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 44:49; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu bancos-->
+<div *ngIf="router.url === '/productos/Bancos'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 49:54; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu sillas-->
+<div *ngIf="router.url === '/productos/Sillas'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 54:56; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---Menu hamacas-->
+<div *ngIf="router.url === '/productos/Hamacas'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 56:58; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--- menu pergolas-->
+<div *ngIf="router.url === '/productos/Pergolas'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="let mueble of menuMuebles | slice: 58:60; let i = index"
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu formentera-->
+<div *ngIf="router.url === '/colecciones/Formentera'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles
+            | filter: { coleccion: 'Colección Formentera' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu modena-->
+<div *ngIf="router.url === '/colecciones/Modena'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles | filter: { coleccion: 'Colección Modena' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu tirreno-->
+<div *ngIf="router.url === '/colecciones/Tirreno'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles
+            | filter: { coleccion: 'Colección Tirreno' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu alumad-->
+<div *ngIf="router.url === '/colecciones/Alumad'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles | filter: { coleccion: 'Colección Alumad' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu deck-->
+<div *ngIf="router.url === '/colecciones/Deck'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles | filter: { coleccion: 'Colección Deck' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!---menu dot-->
+<div *ngIf="router.url === '/colecciones/Dot'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles | filter: { coleccion: 'Colección Dot' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu belt-->
+<div *ngIf="router.url === '/colecciones/Belt'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles | filter: { coleccion: 'Colección Belt' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!--menu especial-->
+<div *ngIf="router.url === '/colecciones/Especial'">
+  <section id="menu">
+    <div class="menu_grid">
+      <div
+        *ngFor="
+          let mueble of menuMuebles
+            | filter: { coleccion: 'Colección Especial' };
+          let i = index
+        "
+        class="menu_item"
+      >
+        <a routerLink={{mueble.id}}
+          ><div class="menu_item_images">
+            <img
+              src="{{ mueble.imagen }} alt{{ mueble.title }}"
+              class="menu_item_imagen1"
+            />
+            <img
+              src="{{ mueble.imagen2 }}"
+              alt="{{ mueble.title }}"
+              class="menu_item_imagen2"
+            /></div
+        ></a>
+        <div class="menu_item_text">
+          <a routerLink={{mueble.id}}
+            ><p>{{ mueble.title }}</p></a
+          >
+          <b>{{ mueble.coleccion }}</b>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
